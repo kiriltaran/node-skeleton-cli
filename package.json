@@ -6,7 +6,7 @@
   "license": "ISC",
   "main": "bin/cli.js",
   "bin": {
-    "nbc": "./bin/cli.js"
+    "nsc": "./bin/cli.js"
   },
   "preferGlobal": true,
   "scripts": {
