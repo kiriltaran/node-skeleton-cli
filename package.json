@@ -1,0 +1,33 @@
+{
+  "name": "node-skeleton-cli",
+  "version": "0.1.0",
+  "description": "Command line interface for Node.js projects generating",
+  "author": "kiriltaran@gmail.com",
+  "license": "ISC",
+  "main": "bin/cli.js",
+  "bin": {
+    "nbc": "./bin/cli.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "^2.19.0",
+    "ejs": "^2.6.1",
+    "minimatch": "^3.0.4",
+    "mkdirp": "^0.5.1",
+    "sorted-object": "^2.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "prettier": "^1.15.3"
+  }
+}
