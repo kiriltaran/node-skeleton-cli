@@ -312,16 +312,16 @@ function createApplication(name, dir) {
 
   if (dir !== '.') {
     console.log();
-    console.log('   change directory:');
-    console.log('     %s cd %s', prompt, dir);
+    console.log('change directory:');
+    console.log('%s cd %s', prompt, dir);
   }
 
   console.log();
-  console.log('   install dependencies:');
-  console.log('     %s npm install or yarn', prompt);
+  console.log('install dependencies:');
+  console.log('%s npm install', prompt);
   console.log();
-  console.log('   run the app:');
-  console.log('     npm start or npm run dev', prompt, name);
+  console.log('run the app:');
+  console.log('%s npm run dev', prompt);
   console.log();
 }
 
@@ -355,7 +355,7 @@ function main() {
 }
 
 program
-  .name('express')
+  .name('node-skeleton-cli')
   .version(VERSION, '    --version')
   .usage('[options] [dir]')
   .parse(process.argv);
