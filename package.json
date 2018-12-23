@@ -4,6 +4,10 @@
   "description": "Command line interface for Node.js projects generating",
   "author": "kiriltaran@gmail.com",
   "license": "ISC",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/kiriltaran/node-skeleton-cli"
+  },
   "main": "bin/cli.js",
   "bin": {
     "nsc": "./bin/cli.js"
