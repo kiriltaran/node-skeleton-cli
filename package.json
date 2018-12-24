@@ -8,6 +8,14 @@
     "type" : "git",
     "url" : "https://github.com/kiriltaran/node-skeleton-cli"
   },
+  "keywords": [
+    "node-cli",
+    "express-cli",
+    "bootstrap",
+    "skeleton",
+    "scaffolder",
+    "generator"
+  ],
   "main": "bin/cli.js",
   "bin": {
     "nsc": "./bin/cli.js"
