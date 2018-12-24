@@ -1,6 +1,6 @@
 {
   "name": "node-skeleton-cli",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "description": "Command line interface for Node.js projects generating",
   "author": "kiriltaran@gmail.com",
   "license": "ISC",
