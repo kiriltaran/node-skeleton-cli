@@ -7,8 +7,6 @@ Install package globally (use sudo if it necessarry):
 ```zsh
 npm install -g node-skeleton-cli
 ```
-</br>
-
 ## Usage
 
 Create a new project:
