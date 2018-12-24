@@ -3,7 +3,7 @@ Command line interface for Node.js(Express) projects scaffolding
 
 ## Installing
 
-Install package globally (use sudo if it neccesarry):
+Install package globally (use sudo if it necessarry):
 ```zsh
 npm install -g node-skeleton-cli
 ```
