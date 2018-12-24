@@ -1,5 +1,5 @@
 # node-skeleton-cli
-Command line interface for Node.js projects generating
+Command line interface for Node.js(Express) projects scaffolding
 
 ## Usage
 
