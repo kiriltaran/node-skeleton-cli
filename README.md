@@ -1,6 +1,14 @@
 # node-skeleton-cli
 Command line interface for Node.js(Express) projects scaffolding
 
+## Installing
+
+Install package globally (use sudo if it neccesarry):
+```zsh
+npm install -g node-skeleton-cli
+```
+</br>
+
 ## Usage
 
 Create a new project:
